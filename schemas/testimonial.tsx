@@ -39,6 +39,11 @@ export const testimonial = defineField({
       },
     },
     {
+      name: 'social',
+      description: 'Does the person have any social profile?',
+      type: 'url',
+    },
+    {
       name: 'testimonial',
       type: 'string',
       description: 'What has they said about you?',
