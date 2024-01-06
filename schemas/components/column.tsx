@@ -7,10 +7,6 @@ export const columnComponent = defineType({
   type: 'object',
   fields: [
     defineField({
-      name: 'grow',
-      type: 'boolean',
-    }),
-    defineField({
       name: 'items',
       type: 'array',
       of: [

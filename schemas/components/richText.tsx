@@ -8,8 +8,8 @@ export const richTextComponent = defineType({
   type: 'object',
   fields: [
     defineField({
-      name: 'richText',
-      title: 'Rich Text',
+      name: 'text',
+      title: 'Text',
       type: 'array',
       of: [
         {
