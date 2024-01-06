@@ -7,7 +7,7 @@ export const rowComponent = defineType({
   type: 'object',
   fields: [
     defineField({
-      name: 'content',
+      name: 'items',
       type: 'array',
       of: [
         defineArrayMember({
