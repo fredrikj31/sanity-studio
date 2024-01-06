@@ -52,7 +52,7 @@ export const blog = defineField({
       ],
     },
     defineField({
-      name: 'Content',
+      name: 'content',
       type: 'contentComponent',
     }),
   ],

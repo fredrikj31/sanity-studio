@@ -9,7 +9,7 @@ export const aboutPage = defineField({
   icon: UserIcon,
   fields: [
     defineField({
-      name: 'Content',
+      name: 'content',
       type: 'contentComponent',
     }),
   ],
