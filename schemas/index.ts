@@ -8,6 +8,7 @@ import {imageComponent} from './components/image'
 import {codeComponent} from './components/code'
 import {tableComponent} from './components/table'
 import {latexComponent} from './components/latex'
+import {contentComponent} from './components/content'
 
 export const schemaTypes = [
   blog,
@@ -21,4 +22,5 @@ export const schemaTypes = [
   codeComponent,
   tableComponent,
   latexComponent,
+  contentComponent,
 ]
