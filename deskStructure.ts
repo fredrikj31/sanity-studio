@@ -8,8 +8,8 @@ export const myStructure = (S: StructureBuilder) =>
       S.listItem()
         .title('About')
         .icon(UserIcon)
-        .child(S.document().schemaType('about').documentId('about')),
+        .child(S.document().schemaType('aboutPage').documentId('aboutPage')),
       ...S.documentTypeListItems().filter(
-        (listItem) => !['about'].includes(listItem.getId() || ''),
+        (listItem) => !['aboutPage'].includes(listItem.getId() || ''),
       ),
     ])
