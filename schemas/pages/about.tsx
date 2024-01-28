@@ -17,17 +17,20 @@ export const about = defineField({
   ],
   fields: [
     defineField({
-      name: 'Title',
+      name: 'title',
+      title: 'Title',
       type: 'string',
       group: 'seo',
     }),
     defineField({
-      name: 'Description',
+      name: 'description',
+      title: 'Description',
       type: 'string',
       group: 'seo',
     }),
     defineField({
-      name: 'Content',
+      name: 'content',
+      title: 'Content',
       type: 'contentComponent',
       group: 'content',
     }),
