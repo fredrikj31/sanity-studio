@@ -44,6 +44,16 @@ export const contentComponent = defineType({
           people that can rely on it to have a good idea of 
           what's on your page.`,
         },
+        {
+          type: 'number',
+          name: 'height',
+          title: 'Height',
+        },
+        {
+          type: 'number',
+          name: 'width',
+          title: 'Width',
+        },
       ],
     },
     {
