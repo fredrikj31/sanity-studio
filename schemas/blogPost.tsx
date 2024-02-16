@@ -1,8 +1,8 @@
 import {EditIcon} from '@sanity/icons'
 import {defineField} from 'sanity'
 
-export const blog = defineField({
-  name: 'blog',
+export const blogPost = defineField({
+  name: 'blogPost',
   title: 'Blog Post',
   description: 'A page for a blog post',
   icon: EditIcon,
