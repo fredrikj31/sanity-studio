@@ -29,6 +29,13 @@ export const blogSeries = defineField({
       },
     },
     {
+      name: 'slug',
+      type: 'slug',
+      validation(rule) {
+        return rule.required()
+      },
+    },
+    {
       name: 'posts',
       title: 'Posts',
       type: 'array',
