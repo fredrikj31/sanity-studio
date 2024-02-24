@@ -43,6 +43,10 @@ export const blogPost = defineField({
       },
     },
     {
+      name: 'modified',
+      type: 'date',
+    },
+    {
       name: 'tags',
       type: 'array',
       of: [
