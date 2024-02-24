@@ -36,7 +36,7 @@ export const blogPost = defineField({
       },
     },
     {
-      name: 'released',
+      name: 'published',
       type: 'date',
       validation(rule) {
         return rule.required()
