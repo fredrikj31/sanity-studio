@@ -1,9 +1,9 @@
 import {defineField} from 'sanity'
 
-export const about = defineField({
-  name: 'about',
-  title: 'About',
-  description: 'Content for the about page',
+export const resume = defineField({
+  name: 'resume',
+  title: 'Resume',
+  description: 'Content for the resume page',
   type: 'document',
   groups: [
     {
