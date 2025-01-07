@@ -1,7 +1,7 @@
 import {CommentIcon} from '@sanity/icons'
-import {defineField} from 'sanity'
+import {SchemaTypeDefinition} from 'sanity'
 
-export const testimonial = defineField({
+export const testimonial: SchemaTypeDefinition = {
   name: 'testimonial',
   title: 'Testimonial',
   description: 'A testimonial from another person',
@@ -52,4 +52,4 @@ export const testimonial = defineField({
       },
     },
   ],
-})
+}

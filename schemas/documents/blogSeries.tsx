@@ -1,8 +1,7 @@
 import {DocumentsIcon} from '@sanity/icons'
-import {defineField} from 'sanity'
-import {blogPost} from './blogPost'
+import {SchemaTypeDefinition} from 'sanity'
 
-export const blogSeries = defineField({
+export const blogSeries: SchemaTypeDefinition = {
   name: 'blogSeries',
   description: 'A page for a blog series',
   icon: DocumentsIcon,
@@ -42,9 +41,9 @@ export const blogSeries = defineField({
       of: [
         {
           type: 'reference',
-          to: blogPost,
+          to: [{type: 'blogPost'}],
         },
       ],
     },
   ],
-})
+}

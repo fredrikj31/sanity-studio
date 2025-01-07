@@ -1,7 +1,7 @@
 import {EditIcon} from '@sanity/icons'
-import {defineField} from 'sanity'
+import {SchemaTypeDefinition} from 'sanity'
 
-export const blogPost = defineField({
+export const blogPost: SchemaTypeDefinition = {
   name: 'blogPost',
   title: 'Blog Post',
   description: 'A page for a blog post',
@@ -55,9 +55,9 @@ export const blogPost = defineField({
         },
       ],
     },
-    defineField({
+    {
       name: 'content',
       type: 'contentComponent',
-    }),
+    },
   ],
-})
+}
