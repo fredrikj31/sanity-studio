@@ -1,10 +1,22 @@
-import {CaseIcon, CommentIcon, DocumentsIcon, EditIcon, UserIcon, PackageIcon} from '@sanity/icons'
+import {
+  CaseIcon,
+  CommentIcon,
+  DocumentsIcon,
+  EditIcon,
+  UserIcon,
+  PackageIcon,
+  HomeIcon,
+} from '@sanity/icons'
 import {StructureBuilder} from 'sanity/desk'
 
 export const myStructure = (S: StructureBuilder) =>
   S.list()
     .title('Content')
     .items([
+      S.listItem()
+        .title('Home')
+        .icon(HomeIcon)
+        .child(S.document().schemaType('home').documentId('home')),
       S.listItem()
         .title('About')
         .icon(UserIcon)
