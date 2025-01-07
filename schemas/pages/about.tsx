@@ -1,6 +1,6 @@
-import {defineField} from 'sanity'
+import {FieldDefinition} from 'sanity'
 
-export const about = defineField({
+export const about: FieldDefinition = {
   name: 'about',
   title: 'About',
   description: 'Content for the about page',
@@ -16,23 +16,23 @@ export const about = defineField({
     },
   ],
   fields: [
-    defineField({
+    {
       name: 'title',
       title: 'Title',
       type: 'string',
       group: 'seo',
-    }),
-    defineField({
+    },
+    {
       name: 'description',
       title: 'Description',
       type: 'string',
       group: 'seo',
-    }),
-    defineField({
+    },
+    {
       name: 'content',
       title: 'Content',
       type: 'contentComponent',
       group: 'content',
-    }),
+    },
   ],
-})
+}
