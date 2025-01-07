@@ -1,6 +1,6 @@
-import {defineField} from 'sanity'
+import {SchemaTypeDefinition} from 'sanity'
 
-export const resume = defineField({
+export const resume: SchemaTypeDefinition = {
   name: 'resume',
   title: 'Resume',
   description: 'Content for the resume page',
@@ -16,23 +16,23 @@ export const resume = defineField({
     },
   ],
   fields: [
-    defineField({
+    {
       name: 'title',
       title: 'Title',
       type: 'string',
       group: 'seo',
-    }),
-    defineField({
+    },
+    {
       name: 'description',
       title: 'Description',
       type: 'string',
       group: 'seo',
-    }),
-    defineField({
+    },
+    {
       name: 'content',
       title: 'Content',
       type: 'contentComponent',
       group: 'content',
-    }),
+    },
   ],
-})
+}

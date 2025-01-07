@@ -1,7 +1,7 @@
 import {PackageIcon} from '@sanity/icons'
-import {defineField} from 'sanity'
+import {SchemaTypeDefinition} from 'sanity'
 
-export const project = defineField({
+export const project: SchemaTypeDefinition = {
   name: 'project',
   title: 'Project',
   description: 'A project showcase',
@@ -44,9 +44,9 @@ export const project = defineField({
         },
       ],
     },
-    defineField({
+    {
       name: 'content',
       type: 'contentComponent',
-    }),
+    },
   ],
-})
+}

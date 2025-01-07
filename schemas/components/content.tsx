@@ -1,6 +1,6 @@
-import {defineType} from 'sanity'
+import {SchemaTypeDefinition} from 'sanity'
 
-export const contentComponent = defineType({
+export const contentComponent: SchemaTypeDefinition = {
   name: 'contentComponent',
   type: 'array',
   of: [
@@ -68,4 +68,4 @@ export const contentComponent = defineType({
       title: 'Math block',
     },
   ],
-})
+}

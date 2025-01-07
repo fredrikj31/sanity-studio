@@ -1,6 +1,6 @@
-import {FieldDefinition} from 'sanity'
+import {SchemaTypeDefinition} from 'sanity'
 
-export const about: FieldDefinition = {
+export const about: SchemaTypeDefinition = {
   name: 'about',
   title: 'About',
   description: 'Content for the about page',

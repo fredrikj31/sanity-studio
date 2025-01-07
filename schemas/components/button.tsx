@@ -1,6 +1,6 @@
-import {FieldDefinition} from 'sanity'
+import {SchemaTypeDefinition} from 'sanity'
 
-export const buttonComponent: FieldDefinition = {
+export const buttonComponent: SchemaTypeDefinition = {
   name: 'buttonComponent',
   type: 'document',
   preview: {
