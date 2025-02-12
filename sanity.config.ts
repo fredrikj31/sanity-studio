@@ -1,6 +1,7 @@
 import {defineConfig} from 'sanity'
 import {deskTool} from 'sanity/desk'
 import {visionTool} from '@sanity/vision'
+import {presentationTool} from 'sanity/presentation'
 import {schemaTypes} from './schemas'
 import {codeInput} from '@sanity/code-input'
 import {media} from 'sanity-plugin-media'
@@ -22,6 +23,15 @@ export default defineConfig({
     table(),
     latexInput(),
     media(),
+    presentationTool({
+      previewUrl: {
+        origin: process.env.SANITY_STUDIO_PREVIEW_ORIGIN || '',
+        preview: '/',
+        previewMode: {
+          enable: '/api/sanity/draft-mode/enable',
+        },
+      },
+    }),
   ],
 
   schema: {
