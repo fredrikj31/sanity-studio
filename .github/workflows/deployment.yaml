@@ -29,4 +29,5 @@ jobs:
           SANITY_AUTH_TOKEN: ${{ secrets.SANITY_AUTH_TOKEN }}
           SANITY_STUDIO_API_DATASET: ${{ secrets.SANITY_STUDIO_API_DATASET }}
           SANITY_STUDIO_API_PROJECT_ID: ${{ secrets.SANITY_STUDIO_API_PROJECT_ID }}
+          SANITY_STUDIO_PREVIEW_ORIGIN: ${{ secrets.SANITY_STUDIO_PREVIEW_ORIGIN }}
         run: pnpm run deploy
