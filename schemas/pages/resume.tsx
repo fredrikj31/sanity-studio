@@ -188,7 +188,7 @@ export const resume: SchemaTypeDefinition = {
       ],
     },
     {
-      name: 'interest',
+      name: 'interests',
       title: 'Interests',
       type: 'array',
       group: 'content',
