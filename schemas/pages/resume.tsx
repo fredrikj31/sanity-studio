@@ -82,7 +82,14 @@ export const resume: SchemaTypeDefinition = {
           fields: [
             {name: 'link', type: 'string', title: 'Link'},
             {name: 'text', type: 'string', title: 'Text'},
-            {name: 'icon', type: 'string', title: 'Icon'},
+            {
+              name: 'icon',
+              type: 'string',
+              title: 'Icon',
+              options: {
+                list: ['phone', 'email', 'github', 'map', 'linkedin', 'twitter'],
+              },
+            },
           ],
         },
       ],
