@@ -91,6 +91,12 @@ export const resume: SchemaTypeDefinition = {
               },
             },
           ],
+          preview: {
+            select: {
+              title: 'text',
+              subtitle: 'icon',
+            },
+          },
         },
       ],
     },
