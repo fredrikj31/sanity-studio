@@ -1,13 +1,11 @@
-import {
-  CaseIcon,
-  CommentIcon,
-  DocumentsIcon,
-  EditIcon,
-  UserIcon,
-  PackageIcon,
-  HomeIcon,
-} from '@sanity/icons'
-import {StructureBuilder} from 'sanity/desk'
+import CaseIcon from "@sanity/icons/Case"
+import CommentIcon from "@sanity/icons/Comment"
+import DocumentsIcon from "@sanity/icons/Documents"
+import EditIcon from "@sanity/icons/Edit"
+import HomeIcon from "@sanity/icons/Home"
+import PackageIcon from "@sanity/icons/Package"
+import UserIcon from "@sanity/icons/User"
+import {StructureBuilder} from 'sanity/structure'
 
 export const myStructure = (S: StructureBuilder) =>
   S.list()
