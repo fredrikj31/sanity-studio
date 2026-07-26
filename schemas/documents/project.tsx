@@ -1,4 +1,4 @@
-import {PackageIcon} from '@sanity/icons'
+import {PackageIcon} from '@sanity/icons/Package'
 import {SchemaTypeDefinition} from 'sanity'
 
 export const project: SchemaTypeDefinition = {

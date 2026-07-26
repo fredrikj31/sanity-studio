@@ -1,4 +1,4 @@
-import {CommentIcon} from '@sanity/icons'
+import {CommentIcon} from '@sanity/icons/Comment'
 import {SchemaTypeDefinition} from 'sanity'
 
 export const testimonial: SchemaTypeDefinition = {
