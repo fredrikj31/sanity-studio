@@ -67,5 +67,8 @@ export const contentComponent: SchemaTypeDefinition = {
       icon: () => <span style={{fontWeight: 'bold'}}>∑</span>,
       title: 'Math block',
     },
+    {
+      type: 'mermaidDiagram',
+    },
   ],
 }
