@@ -7,6 +7,7 @@ import {resume} from './pages/resume'
 import {project} from './documents/project'
 import {home} from './pages/home'
 import {buttonComponent} from './components/button'
+import {mermaidDiagram} from './components/mermaidDiagram'
 
 export const schemaTypes = [
   // Pages
@@ -21,4 +22,5 @@ export const schemaTypes = [
   // Components
   contentComponent,
   buttonComponent,
+  mermaidDiagram,
 ]
